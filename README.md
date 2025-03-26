@@ -3,7 +3,7 @@ dot file  for small
 # push for github
   git add .
 
-  git tag "YYYY-MM-DD"
+  git tag $(date +"%F")
   
   git commit -m --tags
   
