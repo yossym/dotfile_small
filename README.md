@@ -4,5 +4,7 @@ dot file  for small
   git add .
 
   git tag "YYYY-MM-DD"
+  
   git commit -m --tags
+  
   git push origin --tags
